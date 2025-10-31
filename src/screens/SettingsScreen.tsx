@@ -152,7 +152,7 @@ export const SettingsScreen: React.FC<Props> = ({ navigation }) => {
           </View>
           <View style={styles.infoRow}>
             <Text style={styles.infoLabel}>Sinh viên</Text>
-            <Text style={styles.infoValue}>22716761 - Lê Thiện Định</Text>
+            <Text style={styles.infoValue}>22716761 - Lê Thiên Định</Text>
           </View>
         </View>
       </ScrollView>

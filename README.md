@@ -1,6 +1,6 @@
 # EXPENSE TRACKER - Ứng dụng Quản lý Chi tiêu
 
-**Sinh viên:** Lê Thiện Định - 22716761
+**Sinh viên:** Lê Thiên Định - 22716761
 
 ## Tính năng
 

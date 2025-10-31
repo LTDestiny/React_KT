@@ -66,7 +66,7 @@ export const MainScreen: React.FC<Props> = ({ navigation }) => {
   }, [navigation]);
 
   useEffect(() => {
-    applyFilter(expenses, filter, searchText);
+    applyFilter(expenses, filter, searchText);  
   }, [filter, searchText, expenses]);
 
   const handleDelete = (expense: Expense) => {
