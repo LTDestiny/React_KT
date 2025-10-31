@@ -4,10 +4,8 @@ module.exports = {
     slug: "expense-tracker",
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./assets/icon.png",
     userInterfaceStyle: "light",
     splash: {
-      image: "./assets/splash.png",
       resizeMode: "contain",
       backgroundColor: "#ffffff"
     },
@@ -19,24 +17,23 @@ module.exports = {
     ],
     ios: {
       supportsTablet: true,
-      bundleIdentifier: "com.lethiendinh.expensetracker"
+      bundleIdentifier: "com.lethiendinh.expensetracker",
+      infoPlist: {
+        ITSAppUsesNonExemptEncryption: false
+      }
     },
     android: {
       adaptiveIcon: {
-        foregroundImage: "./assets/adaptive-icon.png",
         backgroundColor: "#FFFFFF"
       },
       package: "com.lethiendinh.expensetracker"
-    },
-    web: {
-      favicon: "./assets/favicon.png"
     },
     plugins: [
       "expo-sqlite"
     ],
     extra: {
       eas: {
-        projectId: "your-project-id-here"
+        projectId: "886f47db-e293-4885-a571-9888299242c8"
       }
     }
   }
